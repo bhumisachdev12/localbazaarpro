@@ -5,7 +5,7 @@ export const API_BASE_URL = API_URL
     ? API_URL
     : (__DEV__
         ? 'http://10.110.155.27:5000/api' // Development - use your local IP
-        : 'https://your-render-app.onrender.com/api'); // Production fallback
+        : 'https://localbazaarpro.onrender.com/api'); // Production - Render backend
 // Cloudinary Configuration
 export const CLOUDINARY_CLOUD_NAME = 'du2d0ackl';
 export const CLOUDINARY_UPLOAD_PRESET = 'localbazaar_preset';
