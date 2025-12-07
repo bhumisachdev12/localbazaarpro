@@ -21,7 +21,7 @@ const app = express();
 // CORS Configuration
 const allowedOrigins = process.env.ALLOWED_ORIGINS
     ? process.env.ALLOWED_ORIGINS.split(',')
-    : ['http://localhost:8081', 'http://localhost:19006'];
+    : ['http://localhost:8081', 'http://localhost:19006', "https://localbazaarpro.netlify.app", "*"];
 
 const corsOptions = {
     origin: function (origin, callback) {
