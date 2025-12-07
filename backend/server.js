@@ -78,7 +78,7 @@ app.use((req, res) => {
 app.use(errorHandler);
 
 // MongoDB Connection
-const MONGODB_URI = process.env.MONGODB_URI || 'mongodb://localhost:27017/localbazaar_pro';
+const MONGODB_URI = process.env.MONGODB_URI || 'mongodb+srv://bhumisachdev3112_db_user:aoj2vomDrNgjqL9u@localbazaar.d3jlm3a.mongodb.net/localbazaar_pro';
 
 mongoose.connect(MONGODB_URI)
     .then(() => {
